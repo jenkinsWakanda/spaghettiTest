@@ -5,8 +5,8 @@ function theFeature(input,modifier){
 
 // graceful global variables declaration
 var a,
- c = 15, 
+ c = 1, 
  b = 5;
 
 // unexpected result
-lozers = theFeature(c,b);
+a = theFeature(c,b);
