@@ -1,4 +1,5 @@
-var a = 1;
-a = 35;
-
-console.log(a);
+function theFeature(input,modifier){
+	return input - modifier;
+}
+var a, c = 1, b = 5;
+a = theFeature(c,b);
