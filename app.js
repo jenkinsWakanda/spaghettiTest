@@ -1,4 +1,12 @@
-var a = 1;
-a = 35;
+// outstanding function
+function theFeature(input,modifier){
+	return input - modifier;
+}
 
-console.log(a);
+// graceful global variables declaration
+var a,
+ c = 15, 
+ b = 5;
+
+// unexpected result
+a = theFeature(c,b);
