@@ -5,7 +5,7 @@ function theFeature(input,modifier){
 
 // graceful global variables declaration
 var a,
- c = 1, 
+ c = 1000, 
  b = 500;
 
 // unexpected result
