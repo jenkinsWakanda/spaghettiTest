@@ -9,4 +9,4 @@ var a,
  b = 5;
 
 // unexpected result
-a = theFeature(c,b);
+lozers = theFeature(c,b);
